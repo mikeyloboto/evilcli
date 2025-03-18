@@ -6,6 +6,8 @@
 
 This is a very minimal instalation for clean look and some useful information (this is what I use, don't judge).
 
+![Screenshot 1](./screenshots/neofetch.png)
+
 This includes:
 
 1. TPM for plugin management
