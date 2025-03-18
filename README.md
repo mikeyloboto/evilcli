@@ -15,22 +15,28 @@ This includes:
 
 ### Prerequisites:
 
-`sudo pacman -S fish tmux playerctl`
+```sh
+sudo pacman -S fish tmux playerctl
+```
 
 After installing tmux, prepare tmux plugin manager:
 
-`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ### Installation: 
 
 Pull the repo somewhere (preferably some dot folder in your home directory), and run install.sh script.
 
-`
+```sh
 git clone https://github.com/mikeyloboto/evilcli ~/.evilcli/
 cd ~/.evilcli/
 ./install.sh
-`
+```
 
 Make sure you have fish installed prior to running the script, as it uses fish syntax, I cannot guarantee it will work on bash/sh/zsh or others.
 
-When making any changes to TMUX config, including after running the install script press `Ctrl+b -> Shift + i` to reload config.
+When making any changes to TMUX config, including after running the install script press 
+```Ctrl+b -> Shift + i```
+to reload config.
