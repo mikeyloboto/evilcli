@@ -7,6 +7,7 @@
 This is a very minimal instalation for clean look and some useful information (this is what I use, don't judge).
 
 ![Screenshot 1](./screenshots/neofetch.png)
+![Screenshot 2](./screenshots/nvim.png)
 
 This includes:
 
@@ -42,3 +43,7 @@ Make sure you have fish installed prior to running the script, as it uses fish s
 When making any changes to TMUX config, including after running the install script press 
 ```Ctrl+b -> Shift + i```
 to reload config.
+
+### Other:
+
+For neovim config go [here](https://github.com/mikeyloboto/evilvim).
