@@ -5,9 +5,14 @@ if status is-interactive
 	alias cls="clear"
 	alias wttr="curl wttr.in"
         alias nivm="nvim"
-	tmux
+    if  not string length --quiet $TMUX;
+	tmux;
+    end 
     #    set TERM xterm-256color
     set KUBE_EDITOR nvim
+    set fish_greeting ""
 end
+
+
 
 thefuck --alias | source
