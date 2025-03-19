@@ -1,4 +1,4 @@
-#!/usr/bin/fish
+#!/usr/bin/env fish
 if test -e ~/.tmux.conf
 	mv ~/.tmux.conf ~/.tmux.conf-bak-$(date -I) 
 end
