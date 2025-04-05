@@ -1,6 +1,6 @@
 # Evilcli
 
-## Some profile stuff for tmux + fish mostly for personal use.
+## Some profile stuff for tmux + fish + hyprland mostly for personal use.
 
 ### Plugins and customizations.
 
