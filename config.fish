@@ -13,6 +13,7 @@ if status is-interactive
     set fish_greeting ""
 end
 
+set EDITOR '/usr/bin/nvim'
 
 
 thefuck --alias | source
