@@ -1,0 +1,111 @@
+{
+  "theme.bar.menus.text": "#cdd6f4",
+  "theme.bar.transparent": false,
+  "theme.bar.buttons.style": "split",
+  "theme.bar.opacity": 75,
+  "theme.bar.buttons.monochrome": false,
+  "theme.bar.menus.menu.dashboard.card.color": "#1e1e2e",
+  "theme.bar.menus.menu.dashboard.profile.name": "#eeabff",
+  "theme.matugen": false,
+  "wallpaper.enable": false,
+  "theme.bar.menus.menu.media.card.tint": 100,
+  "theme.font.name": "Hack Nerd Font",
+  "theme.font.label": "Hack Nerd Font",
+  "theme.font.style": "normal",
+  "theme.bar.menus.enableShadow": false,
+  "theme.bar.menus.shadow": "3px 3px 5px 3px #16161e",
+  "menus.media.displayTime": true,
+  "theme.osd.enable": true,
+  "menus.clock.time.military": false,
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.location": "Irkutsk",
+  "menus.clock.weather.unit": "metric",
+  "menus.dashboard.powermenu.avatar.image": "/home/evilbas/Pictures/photo_2024-02-05_12-17-24.jpg",
+  "menus.dashboard.shortcuts.left.shortcut2.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "yandex-music",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Yandex Music",
+  "menus.dashboard.shortcuts.left.shortcut3.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "telegram-desktop",
+  "menus.dashboard.shortcuts.left.shortcut3.tooltip": "Telegram",
+  "wallpaper.pywal": false,
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.buttons.dashboard.icon": "#99f4ff",
+  "theme.bar.buttons.workspaces.active": "#9fecfe",
+  "theme.bar.buttons.windowtitle.text": "#add9fb",
+  "theme.bar.buttons.windowtitle.icon": "#add9fb",
+  "theme.bar.buttons.media.text": "#cbb4f6",
+  "theme.bar.buttons.media.icon": "#cbb4f6",
+  "theme.bar.buttons.volume.text": "#ceaef5",
+  "theme.bar.buttons.volume.icon": "#ceaef5",
+  "theme.bar.buttons.network.text": "#daa3f5",
+  "theme.bar.buttons.network.icon": "#daa3f5",
+  "theme.bar.buttons.bluetooth.text": "#e592f2",
+  "theme.bar.buttons.bluetooth.icon": "#e592f2",
+  "theme.bar.buttons.battery.text": "#eb8af1",
+  "theme.bar.buttons.battery.icon": "#eb8af1",
+  "theme.bar.buttons.clock.text": "#f480f0",
+  "theme.bar.buttons.clock.icon": "#f480f0",
+  "theme.bar.buttons.notifications.total": "#fe74ef",
+  "theme.bar.buttons.notifications.icon": "#fe74ef",
+  "theme.bar.buttons.notifications.border": "#fe74ef",
+  "theme.bar.buttons.clock.border": "#f480f0",
+  "theme.bar.menus.menu.power.scaling": 100,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.dashboard.directories.left.directory2.command": "bash -c \"dolphin $HOME/Videos/\"",
+  "menus.dashboard.directories.left.directory3.command": "bash -c \"dolphin $HOME/Pictures/Screenshots/\"",
+  "menus.dashboard.directories.right.directory1.command": "bash -c \"dolphin $HOME/Documents/\"",
+  "menus.dashboard.directories.right.directory2.command": "bash -c \"dolphin $HOME/Pictures/\"",
+  "menus.dashboard.directories.right.directory3.command": "bash -c \"dolphin $HOME/\"",
+  "menus.dashboard.directories.left.directory1.command": "bash -c \"dolphin $HOME/Downloads/\"",
+  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.directories.left.directory3.label": "󰉏 Screenshots"
+}
