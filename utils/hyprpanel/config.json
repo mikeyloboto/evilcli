@@ -1,14 +1,14 @@
 {
   "theme.bar.menus.text": "#cdd6f4",
-  "theme.bar.transparent": false,
-  "theme.bar.buttons.style": "split",
-  "theme.bar.opacity": 75,
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.style": "default",
+  "theme.bar.opacity": 50,
   "theme.bar.buttons.monochrome": false,
   "theme.bar.menus.menu.dashboard.card.color": "#1e1e2e",
   "theme.bar.menus.menu.dashboard.profile.name": "#eeabff",
   "theme.matugen": false,
   "wallpaper.enable": false,
-  "theme.bar.menus.menu.media.card.tint": 100,
+  "theme.bar.menus.menu.media.card.tint": 95,
   "theme.font.name": "Hack Nerd Font",
   "theme.font.label": "Hack Nerd Font",
   "theme.font.style": "normal",
@@ -20,7 +20,7 @@
   "menus.clock.time.hideSeconds": false,
   "menus.clock.weather.location": "Irkutsk",
   "menus.clock.weather.unit": "metric",
-  "menus.dashboard.powermenu.avatar.image": "/home/evilbas/Pictures/photo_2024-02-05_12-17-24.jpg",
+  "menus.dashboard.powermenu.avatar.image": "/home/evilbas/Pictures/copilot/Portrait in anime style of a fox girl, with white hair and blue eyes, longer hair, wearing black and white gothic-style dress, with blue crystal hair ornament.png",
   "menus.dashboard.shortcuts.left.shortcut2.icon": "",
   "menus.dashboard.shortcuts.left.shortcut2.command": "yandex-music",
   "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Yandex Music",
@@ -42,9 +42,15 @@
   "theme.bar.buttons.bluetooth.text": "#e592f2",
   "theme.bar.buttons.bluetooth.icon": "#e592f2",
   "theme.bar.buttons.battery.text": "#eb8af1",
+  "theme.bar.buttons.kbinput.icon": "#eb8af1",
+  "theme.bar.buttons.kbinput.text": "#eb8af1",
   "theme.bar.buttons.battery.icon": "#eb8af1",
   "theme.bar.buttons.clock.text": "#f480f0",
   "theme.bar.buttons.clock.icon": "#f480f0",
+  "theme.bar.buttons.modules.netstat.text": "#62a0ea",
+  "theme.bar.buttons.modules.netstat.icon": "#62a0ea",
+  "theme.bar.buttons.modules.kbLayout.text": "#dc8add",
+  "theme.bar.buttons.modules.kbLayout.icon": "#dc8add",
   "theme.bar.buttons.notifications.total": "#fe74ef",
   "theme.bar.buttons.notifications.icon": "#fe74ef",
   "theme.bar.buttons.notifications.border": "#fe74ef",
@@ -64,22 +70,24 @@
         "volume",
         "network",
         "bluetooth",
+        "battery",
         "systray",
-        "clock",
         "notifications"
       ]
     },
     "1": {
       "left": [
         "dashboard",
-        "workspaces",
-        "windowtitle"
+        "workspaces"
       ],
       "middle": [
-        "media"
+        "netstat"
       ],
       "right": [
-        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "kbinput",
         "clock",
         "notifications"
       ]
@@ -87,14 +95,16 @@
     "2": {
       "left": [
         "dashboard",
-        "workspaces",
-        "windowtitle"
+        "workspaces"
       ],
       "middle": [
-        "media"
+        "media",
+        "cava",
+        "volume"
       ],
       "right": [
-        "volume",
+        "bluetooth",
+        "kbinput",
         "clock",
         "notifications"
       ]
@@ -106,6 +116,38 @@
   "menus.dashboard.directories.right.directory2.command": "bash -c \"dolphin $HOME/Pictures/\"",
   "menus.dashboard.directories.right.directory3.command": "bash -c \"dolphin $HOME/\"",
   "menus.dashboard.directories.left.directory1.command": "bash -c \"dolphin $HOME/Downloads/\"",
-  "menus.dashboard.stats.enable_gpu": true,
-  "menus.dashboard.directories.left.directory3.label": "󰉏 Screenshots"
+  "menus.dashboard.directories.left.directory3.label": "󰉏 Screenshots",
+  "theme.bar.menus.menu.dashboard.profile.size": "16em",
+  "theme.bar.menus.menu.dashboard.profile.radius": "0.8em",
+  "theme.osd.orientation": "vertical",
+  "bar.launcher.autoDetectIcon": true,
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_icons": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.showAllActive": false,
+  "theme.bar.buttons.modules.kbLayout.enableBorder": false,
+  "bar.customModules.kbLayout.labelType": "code",
+  "bar.bluetooth.label": true,
+  "bar.customModules.cava.showIcon": false,
+  "theme.bar.buttons.modules.cava.enableBorder": false,
+  "bar.customModules.cava.bars": 30,
+  "bar.customModules.cava.stereo": false,
+  "theme.bar.buttons.modules.cava.text": "#cbb4f6",
+  "theme.bar.buttons.modules.cava.icon": "#cbb4f6",
+  "menus.media.hideAlbum": false,
+  "menus.media.hideAuthor": false,
+  "theme.bar.menus.menu.media.song": "#dc8add",
+  "theme.bar.menus.menu.media.artist": "#c061cb",
+  "theme.bar.menus.menu.media.album": "#9141ac",
+  "theme.bar.menus.menu.media.timestamp": "#99c1f1",
+  "menus.media.displayTimeTooltip": true,
+  "theme.bar.menus.cards": "#241f31",
+  "theme.bar.menus.background": "#241f31",
+  "theme.bar.buttons.background_opacity": 70,
+  "theme.bar.buttons.background": "#c061cb"
 }
