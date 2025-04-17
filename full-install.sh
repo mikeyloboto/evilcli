@@ -10,4 +10,6 @@ sudo systemctl enable sddm
 # Utils
 yay -S ags-hyprpanel-git network-manager-applet
 
+yay -S bibata-cursor-bin hyprcursor
+
 yay -S shikane

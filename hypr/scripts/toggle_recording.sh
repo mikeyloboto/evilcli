@@ -5,10 +5,14 @@ currentStatus=$(~/.config/hypr/scripts/screen_record.sh status)
 echo $currentStatus
 echo $currentTS
 
-targetFile=${HOME}/Videos/Screencasts/
+alreadyStarted=$(ps aux | grep screen_record.sh | grep bash)
 
-if [[ "$currentStatus" -eq "recording" ]]; then
-	~/.config/hypr/scripts/screen_record.sh stop "$targetFile"
-else
-	~/.config/hypr/scripts/screen_record.sh start region "$targetFile"
+if [[ "$alreadyStarted" -eq "" ]]; then
+	targetFile=${HOME}/Videos/Screencasts/
+
+	if [[ "$currentStatus" -eq "recording" ]]; then
+		~/.config/hypr/scripts/screen_record.sh stop "$targetFile"
+	else
+		~/.config/hypr/scripts/screen_record.sh start region "$targetFile"
+	fi
 fi
